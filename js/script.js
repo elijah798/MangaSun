@@ -50,14 +50,14 @@ function handleTouchMove(evt) {
 
 function nextPage() {
     page += 1;
-    pageImg.src = `/images/Komi-sama/0270-00${page}.png`
+    pageImg.src = `images/Komi-sama/0270-00${page}.png`
     console.log(page);
 }
 
 function previousPage() {
     if(page > 1){
         page -= 1;
-        pageImg.src = `/images/Komi-sama/0270-00${page}.png`
+        pageImg.src = `images/Komi-sama/0270-00${page}.png`
         console.log(page);
     }
 }
